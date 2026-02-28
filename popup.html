@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Job Search Enhancer</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+
+<body>
+  <div class="popup-container">
+
+    <!-- Header -->
+    <header class="popup-header">
+      <div class="header-icon">💼</div>
+      <div class="header-text">
+        <h1 class="popup-title">Job Search Enhancer</h1>
+        <p class="popup-subtitle">For LinkedIn Jobs</p>
+      </div>
+    </header>
+
+    <!-- Divider -->
+    <div class="divider"></div>
+
+    <!-- Cache Reset Bar -->
+    <div class="cache-bar">
+      <span class="cache-bar__label">🗂 Analysis cache</span>
+      <button type="button" id="reset-cache-btn" class="cache-bar__btn">Reset Cache</button>
+    </div>
+
+    <!-- Settings Form -->
+    <form id="settings-form" autocomplete="off">
+
+
+      <!-- Language Detection Toggle -->
+      <div class="form-group form-group--row">
+        <div class="toggle-info">
+          <span class="label-icon">🌍</span>
+          <div>
+            <span class="form-label">Language Detection</span>
+            <p class="form-hint no-margin">Auto-detects if a non-English language is required</p>
+          </div>
+        </div>
+        <label class="toggle-switch" for="language-toggle" aria-label="Toggle Language Detection">
+          <input type="checkbox" id="language-toggle" />
+          <span class="toggle-slider"></span>
+        </label>
+      </div>
+      <p class="form-hint supported-langs">
+        Supported: Dutch 🇳🇱 · Finnish 🇫🇮 · French 🇫🇷 · German 🇩🇪 · Italian 🇮🇹 · Norwegian 🇳🇴 · Spanish 🇪🇸
+      </p>
+
+      <!-- Hide Promoted Toggle -->
+      <div class="form-group form-group--row">
+        <div class="toggle-info">
+          <span class="label-icon">📢</span>
+          <div>
+            <span class="form-label">Hide Promoted Jobs</span>
+            <p class="form-hint no-margin">Remove sponsored/promoted listings</p>
+          </div>
+        </div>
+        <label class="toggle-switch" for="promoted-toggle" aria-label="Toggle Hide Promoted">
+          <input type="checkbox" id="promoted-toggle" />
+          <span class="toggle-slider"></span>
+        </label>
+      </div>
+
+      <!-- Hide Reposted Toggle -->
+      <div class="form-group form-group--row">
+        <div class="toggle-info">
+          <span class="label-icon">🔁</span>
+          <div>
+            <span class="form-label">Hide Reposted Jobs</span>
+            <p class="form-hint no-margin">Remove jobs marked as reposted</p>
+          </div>
+        </div>
+        <label class="toggle-switch" for="reposted-toggle" aria-label="Toggle Hide Reposted">
+          <input type="checkbox" id="reposted-toggle" />
+          <span class="toggle-slider"></span>
+        </label>
+      </div>
+
+      <!-- Save Button -->
+      <button type="submit" id="save-btn" class="save-btn">
+        <span id="save-btn-text">Save Settings</span>
+        <span id="save-btn-spinner" class="spinner hidden" aria-hidden="true"></span>
+      </button>
+
+    </form>
+
+    <!-- Status Message -->
+    <div id="status-message" class="status-message hidden" role="alert" aria-live="polite"></div>
+
+    <!-- Footer -->
+    <footer class="popup-footer">
+      <p>Runs automatically on LinkedIn Jobs pages</p>
+    </footer>
+
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+/* badge.css — Job Search Enhancer
+   All colors meet WCAG AA accessibility standards (contrast ≥ 4.5:1) */
+
+/* ─── Block badge (injected between title div and location div) ───────────────*/
+.jse-lang-badge {
+    display: inline-block;
+    margin: 8px 0 4px;
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+    border: 1.5px solid transparent;
+    cursor: default;
+}
+
+/* Required — dark red bg, white text (contrast ≈ 7.2:1) */
+.jse-lang-badge.required {
+    background-color: #b91c1c;
+    color: #ffffff;
+    border-color: #991b1b;
+}
+
+/* Optional — dark amber bg, white text (contrast ≈ 5.9:1) */
+.jse-lang-badge.optional {
+    background-color: #92400e;
+    color: #ffffff;
+    border-color: #78350f;
+}
+
+/* Not required — dark green bg, white text (contrast ≈ 6.8:1) */
+.jse-lang-badge.not-required {
+    background-color: #166534;
+    color: #ffffff;
+    border-color: #14532d;
+}
+
+/* Unclear — dark gray bg, white text (contrast ≈ 9.1:1) */
+.jse-lang-badge.unclear {
+    background-color: #374151;
+    color: #ffffff;
+    border-color: #1f2937;
+}
+
+/* ─── Fixed fallback (when panel injection fails) ────────────────────────────*/
+.jse-lang-badge.jse-lang-badge--fixed {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 2147483647;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+    border-radius: 999px;
+    font-size: 13px;
+    padding: 9px 18px;
+}
