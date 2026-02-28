@@ -82,6 +82,15 @@ Install from the [Firefox Add-ons page](https://addons.mozilla.org) *(link comin
 
 ---
 
+## Screenshots
+<img width="1800" height="1052" alt="Screenshot 2026-02-28 at 8 45 36 PM" src="https://github.com/user-attachments/assets/cc841b73-09d8-43e0-92a6-9e8f3288ab97" />
+<img width="1912" height="1168" alt="Screenshot 2026-02-28 at 8 30 30 PM" src="https://github.com/user-attachments/assets/7615268c-64b2-4186-ac2a-7e56d93ece3f" />
+<img width="1912" height="1168" alt="Screenshot 2026-02-28 at 8 28 17 PM" src="https://github.com/user-attachments/assets/d4f482d2-5d1a-44d2-9319-a04dfbd4061b" />
+<img width="1912" height="1168" alt="Screenshot 2026-02-28 at 8 29 50 PM" src="https://github.com/user-attachments/assets/e9ad88c0-f0b0-4cba-b774-e6795f8b716f" />
+<img width="1912" height="1168" alt="Screenshot 2026-02-28 at 8 30 00 PM" src="https://github.com/user-attachments/assets/20aa6523-7bd8-491e-948f-8fb5352a7b3d" />
+
+---
+
 ## Source Code
 
 The extension is written entirely in **plain HTML, CSS, and JavaScript** — no build tools, no bundlers, no minifiers, no preprocessors using Claude Sonnet 4.6 on Google Antigravity.
