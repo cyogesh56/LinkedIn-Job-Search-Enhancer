@@ -54,7 +54,7 @@ The popup includes a **Reset Cache** button that clears all cached scan results,
 Download ZIP file from Packages and follow below instructions for Chrome and Firefox:
 
 **How to Install**
-*Google Chrome*
+*Google Chrome/Brave/Microsoft Edge/Opera/Vivaldi*
 1. Open Chrome and go to: chrome://extensions
 2. Turn on "Developer mode" (toggle in the top-right corner)
 3. Click "Load unpacked"
