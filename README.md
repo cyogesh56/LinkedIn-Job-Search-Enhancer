@@ -71,7 +71,7 @@ Download ZIP file from Packages and follow below instructions for Chrome and Fir
 ## Addon Store Versions
 
 ### Firefox
-Install from the [Firefox Add-ons page](https://addons.mozilla.org) *(link coming soon)*.
+Install from the [Firefox Add-ons page]([https://addons.mozilla.org](https://addons.mozilla.org/en-US/firefox/addon/linkedin-job-search-enhancer/))
 
 ### Chrome / Manual install (Developer Mode)
 *(link coming soon)*
