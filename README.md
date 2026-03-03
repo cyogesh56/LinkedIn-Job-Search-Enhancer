@@ -2,6 +2,8 @@
 A Firefox/Chrome browser extension that makes LinkedIn job searching smarter by automatically detecting language requirements in job postings and filtering out promoted and reposted jobs.
 
 ---
+#Download from [Firefox Add-ons page](https://addons.mozilla.org/en-US/firefox/addon/linkedin-job-search-enhancer/)
+---
 
 ## Features
 
