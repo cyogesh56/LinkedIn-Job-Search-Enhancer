@@ -2,8 +2,11 @@
 A Firefox/Chrome browser extension that makes LinkedIn job searching smarter by automatically detecting language requirements in job postings and filtering out promoted and reposted jobs.
 
 ---
+
 #Download from [Firefox Add-ons page](https://addons.mozilla.org/en-US/firefox/addon/linkedin-job-search-enhancer/)
+
 #Download from [Chrome Web Store (Chrome/Edge/Brave)](https://chrome.google.com/webstore/detail/gmnlnojmbkgjcmmmhjmoidneidkjelnb)
+
 ---
 
 ## Features
@@ -58,8 +61,8 @@ The popup includes a **Reset Cache** button that clears all cached scan results,
 ### Firefox
 Install from the [Firefox Add-ons page](https://addons.mozilla.org/en-US/firefox/addon/linkedin-job-search-enhancer/)
 
-### Chrome / Manual install (Developer Mode)
-[Chrome Web Store (Chrome/Edge/BraveOpera/Vivaldi)](https://chrome.google.com/webstore/detail/gmnlnojmbkgjcmmmhjmoidneidkjelnb)
+### Chrome/Microsoft Edge/Opera/Brave/Vivaldi
+Install from the [Chrome Web Store](https://chrome.google.com/webstore/detail/gmnlnojmbkgjcmmmhjmoidneidkjelnb)
 
 ---
 
