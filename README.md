@@ -3,6 +3,7 @@ A Firefox/Chrome browser extension that makes LinkedIn job searching smarter by 
 
 ---
 #Download from [Firefox Add-ons page](https://addons.mozilla.org/en-US/firefox/addon/linkedin-job-search-enhancer/)
+#Download from [Chrome Web Store (Chrome/Edge/Brave)](https://chrome.google.com/webstore/detail/gmnlnojmbkgjcmmmhjmoidneidkjelnb)
 ---
 
 ## Features
@@ -53,34 +54,12 @@ The popup includes a **Reset Cache** button that clears all cached scan results,
 ---
 
 ## Installation
-Download ZIP file from Packages and follow below instructions for Chrome and Firefox:
-
-**How to Install**
-*Google Chrome/Brave/Microsoft Edge/Opera/Vivaldi*
-1. Open Chrome and go to: chrome://extensions
-2. Turn on "Developer mode" (toggle in the top-right corner)
-3. Click "Load unpacked"
-4. Navigate to and select the folder: job-search-enhancer
-5. The extension icon (💼) appears in your toolbar
-
-*Mozilla Firefox*
-1. Open Firefox and go to: about:debugging
-2. Click "This Firefox" in the left sidebar
-3. Click "Load Temporary Add-on…"
-4. Navigate to the job-search-enhancer folder and select *manifest.json*
-5. The extension icon appears in your toolbar
-
-## Addon Store Versions
 
 ### Firefox
 Install from the [Firefox Add-ons page](https://addons.mozilla.org/en-US/firefox/addon/linkedin-job-search-enhancer/)
 
 ### Chrome / Manual install (Developer Mode)
-*(link coming soon)*
-1. Clone or download this repository
-2. Go to `chrome://extensions`
-3. Enable **Developer mode**
-4. Click **Load unpacked** and select the `job-search-enhancer` folder
+[Chrome Web Store (Chrome/Edge/BraveOpera/Vivaldi)](https://chrome.google.com/webstore/detail/gmnlnojmbkgjcmmmhjmoidneidkjelnb)
 
 ---
 
